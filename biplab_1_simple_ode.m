@@ -1,3 +1,12 @@
+%Problem definition
+%Simple model which includes a reversible chemical reaction between A <-> B
+%Rate constant are given and time for simulation is given along with Initial concentrations of A and B.
+%Differential equations are written with repsect to rate of chnage of A and B and given as follows.
+%dA/dt = -k1[A] + k2[B]
+%dB/dt = k1[A] - k2[B]
+
+
+
 %Define parameters
 k1 =  0.2
 k2 = 0.4
