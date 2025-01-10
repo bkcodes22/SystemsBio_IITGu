@@ -1,4 +1,3 @@
-%Disease model
 % 1. Disease spreads when an infected person comes in contact with the uniinfected person
 % 2. No one gets cured
 % 3. Everybody can come in contact with everyone
