@@ -9,7 +9,7 @@ k_r = 0.06; % Reverse reaction rate constant
 
 % Initial concentrations
 X0 = 2.0; % Initial concentration of X
-Y0 = 3.0; % Initial concentration of Y
+Y0 = 2.0; % Initial concentration of Y
 P0 = 0.0; % Initial concentration of P
 
 % Time span for the simulation
