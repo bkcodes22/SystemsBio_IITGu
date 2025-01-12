@@ -5,15 +5,15 @@
 
 % Define parameters
 k_f = 0.1; % Forward reaction rate constant
-k_r = 0.05; % Reverse reaction rate constant
+k_r = 0.06; % Reverse reaction rate constant
 
 % Initial concentrations
-X0 = 1.0; % Initial concentration of X
-Y0 = 2.0; % Initial concentration of Y
+X0 = 2.0; % Initial concentration of X
+Y0 = 3.0; % Initial concentration of Y
 P0 = 0.0; % Initial concentration of P
 
 % Time span for the simulation
-t_span = [0 50]; % Time in arbitrary units
+t_span = [0 40]; % Time in arbitrary units
 
 % Define the ODE system
 reaction_ode = @(t, C) [
